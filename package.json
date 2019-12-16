@@ -1,0 +1,23 @@
+{
+  "name": "@medic/eslint-config",
+  "version": "0.0.2",
+  "description": "Standard eslint configs for our repos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medic/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "gareth@bowenwebdesign.co.nz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medic/eslint-config/issues"
+  },
+  "homepage": "https://github.com/medic/eslint-config#readme"
+}

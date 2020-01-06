@@ -5,22 +5,31 @@ module.exports = {
   },
   rules: {
     'curly': 'error',
+    'eol-last': 'error',
     'eqeqeq': 'error',
     'guard-for-in': 'error',
+    'indent': ['error', 2],
+    'max-len': ['error', { 'code': 120, 'ignoreUrls': true }],
     'no-bitwise': 'error',
     'no-buffer-constructor': 'error',
     'no-caller': 'error',
-    'no-console': 'off',
-    'semi': [
-      'error',
-      'always'
-    ],
+    'no-console': 'error',
+    'no-sequences': 'error',
+    'no-var': 'error',
+    'one-var': ['error', 'never'],
+    'one-var-declaration-per-line': ['error', 'always'],
+    'prefer-const': 'error',
+    'prefer-regex-literals': 'error',
     'quotes': [
       'error',
       'single',
       {
         'allowTemplateLiterals': true
       }
-    ]
+    ],
+    'semi': [
+      'error',
+      'always'
+    ],
   }
 };

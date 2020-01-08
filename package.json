@@ -1,7 +1,7 @@
 {
   "name": "@medic/eslint-config",
-  "version": "1.1.0",
-  "description": "Standard eslint configs for our repos",
+  "version": "1.1.1",
+  "description": "Standard eslint configs for medic repos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "eslint",
     "eslint-config"
   ],
-  "author": "gareth@bowenwebdesign.co.nz",
+  "author": "gareth@medicmobile.org",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/medic/eslint-config/issues"

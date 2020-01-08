@@ -20,33 +20,28 @@ module.exports = {
     'one-var-declaration-per-line': ['error', 'always'],
     'prefer-const': 'error',
     'prefer-regex-literals': 'error',
-    'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+    'quotes': ['error', 'single', { 'allowTemplateLiterals': true, 'avoidEscape': true }],
     'semi': ['error', 'always'],
   },
   overrides: [
     {
       files: ['**/tests/**', '**/test/**'],
+      env: {
+        mocha: true
+      },
       rules: {
         'no-global-assign': 'off'
       },
       globals: {
         '_': true,
-        'after': true,
-        'afterAll': true,
-        'afterEach': true,
         'assert': true,
-        'before': true,
-        'beforeAll': true,
-        'beforeEach': true,
         'browser': true,
         'by': true,
         'chai': true,
-        'describe': true,
         'element': true,
         'emit': true,
         'expect': true,
         'inject': true,
-        'it': true,
         'KarmaUtils': true,
         'moment': true,
         'Promise': true,

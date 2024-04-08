@@ -6,7 +6,7 @@ module.exports = {
   rules: {
     'curly': 'error',
     'eol-last': 'error',
-    'eqeqeq': 'error',
+    'eqeqeq': ['error', 'always', { 'null': 'ignore' }],
     'guard-for-in': 'error',
     'indent': ['error', 2],
     'max-len': ['error', { 'code': 120, 'ignoreUrls': true }],

@@ -4,7 +4,8 @@
   "description": "Standard eslint configs for medic repos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/medic/eslint-config/issues"
   },
-  "homepage": "https://github.com/medic/eslint-config#readme"
+  "homepage": "https://github.com/medic/eslint-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.7.1",
+    "@commitlint/config-conventional": "^19.7.1",
+    "semantic-release": "^24.2.1"
+  }
 }

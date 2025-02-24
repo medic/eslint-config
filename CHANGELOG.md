@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/medic/eslint-config/compare/1.1.0...1.2.0) (2025-02-24)
+
+
+### Features
+
+* add more rules commonly used in medic repos ([#8](https://github.com/medic/eslint-config/issues/8)) ([275d107](https://github.com/medic/eslint-config/commit/275d10775444e612a3b6ecdd7d468a711c3aef98))
+
 # 1.1.0 (2020-01-07)
 
 * Bump version ([29023d9](https://github.com/medic/eslint-config/commit/29023d9317959615187a0bb15d283b1761dfa3de))

@@ -21,7 +21,7 @@ module.exports = {
     "function-call-argument-newline": ["error", "consistent"],
     "function-paren-newline": ["error", "consistent"],
     "implicit-arrow-linebreak": "error",
-    'indent': ['error', 2],
+    'indent': ['error', 2, { 'SwitchCase': 1 }],
     "key-spacing": "error",
     "keyword-spacing": "error",
     "linebreak-style": "error",
